@@ -33,6 +33,7 @@ public class VelislavaTest extends VelislavaAbstractTest {
     @Test
     @DisplayName("Проверка при ответе 401 с мокированием метод GET")
     @Severity(SeverityLevel.NORMAL)
+    //тут хотя бы уж свою фамилию поставили бы
     @Owner("Бакшанская Алеся")
     @Epic(value = "Velislava")
     void testVelislavaGet401Response() throws URISyntaxException, IOException {
@@ -73,6 +74,7 @@ public class VelislavaTest extends VelislavaAbstractTest {
     @Test
     @DisplayName("Проверка при ответе 401 с мокированием етод POST")
     @Severity(SeverityLevel.NORMAL)
+    //тут хотя бы уж свою фамилию поставили бы
     @Owner("Бакшанская Алеся")
     @Epic(value = "Velislava")
     void testVelislavaGet401ResponsePost() throws URISyntaxException, IOException {
